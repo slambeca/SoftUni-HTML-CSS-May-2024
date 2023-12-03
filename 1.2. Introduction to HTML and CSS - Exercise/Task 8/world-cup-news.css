@@ -1,0 +1,22 @@
+#wrapper {
+    background: #a6e1ec;
+    width: 720px;
+    height: 500px;
+    border: 1px solid #000000;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.text {
+    width: 595px;
+    font-size: 25px;
+    list-style-type: none;
+    padding-top: 100px;
+    color: #3f51b5;
+}
+
+img {
+    width: 200px;
+    margin-right: 37px;
+    vertical-align: middle;
+}
