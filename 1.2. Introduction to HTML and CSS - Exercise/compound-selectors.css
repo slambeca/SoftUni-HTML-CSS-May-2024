@@ -1,0 +1,17 @@
+p.highlighted {
+    color: purple;
+    font-size: 18px;
+}
+
+div#special {
+    background: yellow;
+}
+
+a[href^="https"] {
+    border-bottom: 1px solod orange;
+    color: orange;
+}
+
+p.fancy.highlighted {
+    background: lightblue;
+}
