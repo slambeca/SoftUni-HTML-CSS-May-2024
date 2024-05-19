@@ -1,0 +1,27 @@
+h1 {
+    color: #090;
+}
+
+p {
+    font-size: 14px;
+}
+
+.highlight {
+    color: orange;
+}
+
+#main-title {
+    color: purple;
+}
+
+#special-paragraph {
+    font-style: italic;
+}
+
+section {
+    background: yellow;
+}
+
+ul li {
+    font-weight: 900;
+}
