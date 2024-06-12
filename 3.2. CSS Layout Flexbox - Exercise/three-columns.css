@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 2em;
+    background: #eee;
+    font: 14px/1.5 Lato, sans-serif;
+}
+
+.site {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.three-columns {
+    background: #fff;
+    padding: 2em;
+    /* display: flex;
+    flex-wrap: wrap; */
+    gap: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em 0 rgb(0, 0, 0, 0.1)
+}
+
+.three-columns > header,
+.three-columns > footer {
+    /* flex: 1 0 100%; */
+    text-align: center;
+}
+
+/* .three-columns > * {
+    outline: 1px solid black;
+} */
+
+/* .three-columns article {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 30%;
+    flex: 0 1 30% This is the shorthand variant
+} */
+
+.columns {
+    display: flex;
+    margin: 2em 0;
+}
+
+.columns article {
+    flex: 1 0 30%;
+}
+
+.three-columns > header p {
+    max-width: 45%;
+    margin: 0 auto;
+    opacity: 0.7;
+}
+
+.three-columns > header h2 {
+    margin-bottom: 0.3em;
+}
+
+.three-columns > footer p {
+    margin: 0 auto;
+    max-width: 64%;
+    opacity: 0.7;
+    font-size: 0.9em;
+}
+
+.three-columns > header p::after,
+.three-columns > footer p::before {
+    display: block;
+    content: '';
+    width: 5em;
+    margin: 0 auto;
+    height: 2px;
+    background: lightgray; 
+    margin: 2em auto;
+}
